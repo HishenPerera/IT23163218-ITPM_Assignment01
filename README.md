@@ -65,7 +65,7 @@ https://github.com/HishenPerera/IT23163218-ITPM_Assignment01
 
 ## Technology Stack  
 - **Automation Framework:** Playwright  
-- **Programming Language:** TypeScript  
+- **Programming Language:** JavaScript  
 - **Runtime Environment:** Node.js  
 - **Browser:** Chromium (Playwright default)  
 - **Version Control:** Git & GitHub  

@@ -113,8 +113,8 @@ const TEST_DATA = {
     // Complex sentences 
     { 
       tcId: 'Pos_Fun_006', 
-      input: 'maarga thadhabadhaya nisa paree gaman kirima dhushkara vee', 
-      expected: 'මාර්ග තදබදය නිස පරේ ගමන් කිරිම දුශ්කර වේ', 
+      input: 'maarga thadhabadhaya nisaa paree gaman kirima dhushkara vee', 
+      expected: 'මාර්ග තදබදය නිසා පරේ ගමන් කිරිම දුශ්කර වේ', 
       name: 'Complex sentences' 
     },
 
@@ -180,6 +180,20 @@ const TEST_DATA = {
       name: 'Tense Variations - Future tense',
     },
 
+    // Negations
+    {
+      tcId: 'Pos_Fun_016',
+      input: 'mata epaa eeka',
+      expected: 'මට එපා ඒක',
+      name: 'Simple negation',
+    },
+    {
+      tcId: 'Pos_Fun_017',
+      input: 'mata eeka karanna baee',
+      expected: 'මට ඒක කරන්න බෑ',
+      name: 'Cannot statement',
+    },
+    
     // Plural and Pronouns
     {
       tcId: 'Pos_Fun_018',

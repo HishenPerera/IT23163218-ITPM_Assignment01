@@ -312,9 +312,9 @@ const TEST_DATA = {
   ],
   ui: {
     tcId: 'Pos_UI_001',
-    input: 'mama kaeema kannavaa',
+    input: 'mama kaeema kanavaa',
     partialInput: 'mama kae',
-    expectedFull: 'මම කෑම කන්නවා',
+    expectedFull: 'මම කෑම කනවා',
     name: 'Real-time translation updates as typing',
   },
 };
